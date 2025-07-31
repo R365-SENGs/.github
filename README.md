@@ -27,9 +27,9 @@
 _In this context, production-targeted means work on a scoped project that was added by external client request._ 
 _Requests from clients internal to R365 (SENG leadership, CS, product teams) should have their projects managed in separate modules._
 _Production-targeted functionality should be managed via the steps below._
-1. Open an issue in the [r365_automations_toolkit](https://github.com/R365-SENGs/r365-automations-toolkit.git) repository describing the bug fix or feature request.
+1. Open an issue in the repository describing the bug fix or feature request.
 2. If you intend to address the request, assign yourself to the issue for tracking purposes.
-3. Clone the current *_main_* branch of the [r365_automations_toolkit](https://github.com/R365-SENGs/r365-automations-toolkit) into a local environment.
+3. Clone the *_main_* branch of the repository into a local environment.
 4. Create a new branch, preferably with the same name as your open issue.
 5. Before submitting a merge request, review the following:
       * Check for hardcoded data.
